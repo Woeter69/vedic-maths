@@ -13,7 +13,7 @@ for i in range(n):
     quot = str(num // first_num)
     num = int(rem*10 + quot)
     
-    final_result = final_result + quo
+    final_result = final_result + quot
 
 print(final_result)
 
