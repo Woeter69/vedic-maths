@@ -10,8 +10,8 @@ if first_num>num:
 
 for i in range(n):
     rem = str(num % first_num)
-    quo = str(num // first_num)
-    num = int(rem*10 + quo)
+    quot = str(num // first_num)
+    num = int(rem*10 + quot)
     
     final_result = final_result + quo
 
